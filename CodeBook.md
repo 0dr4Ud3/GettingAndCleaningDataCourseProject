@@ -17,7 +17,7 @@ Accelerometer and Gyroscope measurements during 6 activities obtained from 30 vo
 - ACT: categorical variable identifying the activity performed during the measurement period. (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 #### MEASUREMENT VARIABLES
-The measurement variable names were constructed as follows: (**t**: time domain; **f**: frequency domain; **BodyAcc**: body linear acceleration; **GravityAcc**: gravity acceleration; **BodyGyro**: Body angular velocity; **Jerk**: signals derived in time to obtain Jerk signals; **Mag**: magnitude of the three-dimensional signals calculated using Euclidean norm, **MU**: mean values; **SD**: standard deviation; **X**: x axis; **Y**: y axis; **Z**: z axis)
+The measurement variable names were constructed as follows: (**t**: time domain; **f**: frequency domain; **BodyAcc**: body linear acceleration (units g); **GravityAcc**: gravity acceleration (units g); **BodyGyro**: Body angular velocity (units radians/second); **Jerk**: signals derived in time to obtain Jerk signals; **Mag**: magnitude of the three-dimensional signals calculated using Euclidean norm, **MU**: mean values; **SD**: standard deviation; **X**: x axis; **Y**: y axis; **Z**: z axis)
 
 Below, they are listed the complete set of variable included in the dataset.
 
