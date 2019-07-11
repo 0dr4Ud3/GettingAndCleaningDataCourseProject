@@ -3,9 +3,9 @@
 ###----------------------------------------------------------###
 
 # Loading required packages
-library("dplyr")
-require(reshape2)
-require(stringr)
+library(dplyr)
+library(reshape2)
+library(stringr)
 
 # Unzip the downloaded file and set working directory to the folder where the raw data is stored
 unzip("getdata_projectfiles_UCI HAR Dataset.zip")
