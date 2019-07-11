@@ -5,7 +5,7 @@ Peer-graded assingment for the Getting and Cleaning data course
 
 List of attached files:
 
-- ***CourseraCourseProjectGCdata.R***: R script where the raw data was treated in order to obtain a final tidy data set. All the instructions are adequately commented with understandable explanations. Briefly, the instructions were the following: 
+- ***run_analysis.R***: R script where the raw data was treated in order to obtain a final tidy data set. All the instructions are adequately commented with understandable explanations. Briefly, the instructions were the following: 
 
   1. Unzipping the downloaded file and setting the working directory
   2. Reading raw data files for both the test dataset and the training dataset, and additional files (activity_labels.txt and features.txt)
