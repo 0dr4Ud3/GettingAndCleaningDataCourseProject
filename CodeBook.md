@@ -1,7 +1,5 @@
----
-title: "CodeBook"
-output: html_document
----
+
+ # CodeBook
 
 This codebook refers to the information collected in the file "tidydata.txt".
 
