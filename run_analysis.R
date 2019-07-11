@@ -60,7 +60,7 @@ dat4$ACT<-factor(dat4$ACT,labels = act_lab[,2])
 dat4$GRP<-factor(dat4$GRP,labels = c("TRAIN","TEST"))
 
 # Generate a new tidy dataset based on dat4 with the computed mean for each variable
-dat5<- dat4 %>% melt(id = c("ID", "ACT", "GRP")) %>% dcast(ID + ACT + GRP~ variable, mean)
+dat5<-dat4 %>% melt(id = c("ID", "ACT", "GRP")) %>% dcast(ID + ACT + GRP~ variable, mean)
 
 # Save the dataset in a txt file
 write.table(dat5, "tidydata.txt", row.name = FALSE, quote = FALSE)
